@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>
+          Search Word
+     </title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+</head>
+
+<body>
+     <h1>Search Word</h1>
+     <p>Pontos: <span id="pontos"></span></p>
+     <p>Tempo: <span id="timer"></span></p>
+     <div class=" conteiner">
+          <div class="tabela-conteiner">
+               <table class="tabela-palavras" id="tabela_letras">
+                    <thead>
+
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+               </table>
+          </div>
+          <div class="palavras-conteiner">
+               <h3>Lista de palavras</h3>
+               <ul class="palavras-lista" id="lista_palavras">
+               </ul>
+               <div class="iniciar">
+                    <button onclick="iniciar(); ia()">Iniciar experimento</button>
+               </div>
+          </div>
+          <div class="performanceIA">
+
+          </div>
+     </div>
+     <script src="index.js"></script>
+</body>
+
+</html>
